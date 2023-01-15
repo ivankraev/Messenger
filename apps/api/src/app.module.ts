@@ -1,4 +1,4 @@
-import { SharedModule } from './../../../libs/shared/src/shared.module';
+import { SharedModule } from '@app/shared';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
